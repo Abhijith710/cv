@@ -24,12 +24,20 @@
             <page size="A4">
                
                <!-- PDF CONTENT START -->
+            <div id="parent">
+             <div class="picture">
              <div class="image">
               <div class="img_inner">
                 <div class="img2">
                 <img src="./img20.png">
                 </div>
-               </div>
+               </div></div></div>
+            <div id="parent1">
+              <div class="pg">
+                <div class="parlg1"></div>
+                <div class="parlg2"></div>
+              </div>
+             </div>
               </div>
    
 
@@ -110,6 +118,31 @@
             margin-left:5%;
             transform:rotate(-45deg);
           }
+      #parent1{position: relative;}
+      .parlg1{
+            height:200px;
+            Width:80%;
+            background:black;
+            transform:skew(320 deg);
+           }
+       .parlg2{
+             height:200px;
+             width:80%;
+             background:orange;
+             transform:skew(320 deg);
+             Position: absolute;
+             bottom:20px;
+             right:20px;
+           }
+       #parent{position:relative;}
+       .pg{
+            margin-left:10%;
+            margin-top:15%;
+           }
+       .picture{
+            position:absolute;
+            Right:90%;
+           }
 </style>
 
 </div>
