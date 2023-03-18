@@ -25,19 +25,19 @@
                
                <!-- PDF CONTENT START -->
             <div id="parent">
-             <div class="picture">
+       
              <div class="image">
               <div class="img_inner">
                 <div class="img2">
                 <img src="./img20.png">
-                </div>
+               
                </div></div></div>
-            <div id="parent1">
-              <div class="pg">
+            
+              
                 <div class="parlg1"></div>
                 <div class="parlg2"></div>
-              </div>
-             </div>
+              
+            
               </div>
    
 
@@ -98,7 +98,7 @@
       display: block;
       margin: 0 auto;
     }
-
+#parent{position:relative;}
      .image img{
          max-width :100%;
          width:100%;
@@ -111,39 +111,37 @@
          margin-left:5%;
          transform:rotate(45deg);
          Overflow:hidden;}
-     .img2{
-            width:300px;
-            Height:300px;
-            margin-top:5%;
-            margin-left:5%;
-            transform:rotate(-45deg);
-          }
-      #parent1{position: relative;}
+    
       .parlg1{
+            margin-left:10%;
+            margin-top:15%;
             height:150px;
             Width:90%;
             background:black;
             transform:skew(-40 deg);
            }
        .parlg2{
+             margin-left:10%;
+             margin-top:15%;
              height:150px;
              width:90%;
              background:orange;
              transform:skew(-40 deg);
              Position: absolute;
-             top:-20px;
+             bottom:20px;
              right:20px;
            }
-       #parent{position:relative;}
-       .pg{
-            margin-left:10%;
-            margin-top:15%;
-           }
-       .picture{
-            position:absolute;
-            top:0px;
-            right:90%;
-           }
+       
+
+       .img2{
+            width:300px;
+            Height:300px;
+            margin-top:5%;
+            margin-left:5%;
+            transform:rotate(-45deg);
+            Top:0px;
+            Right:90px; 
+          }
 </style>
 
 </div>
